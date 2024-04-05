@@ -20,7 +20,7 @@ public class greenkart {
 	driver.get("https://rahulshettyacademy.com/seleniumPractise/#/");
 	
 	String[] item = {"Brocolli","Brinjal","Apple","Musk Melon","Walnuts"};
-	int[] quantity = {2,4,6,8,4};
+	int[] quantity = {2,3,6,5,4};
 	
 	List<WebElement> vegs = driver.findElements(By.xpath("//h4"));
 	int j=0;
