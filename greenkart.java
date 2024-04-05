@@ -21,6 +21,10 @@ public class greenkart {
 	
 	String[] item = {"Brocolli","Brinjal","Apple","Musk Melon","Walnuts"};
 	int[] quantity = {2,4,6,8,4};
+
+
+
+
 	
 	List<WebElement> vegs = driver.findElements(By.xpath("//h4"));
 	int j=0;
